@@ -1,6 +1,6 @@
 [
   {
-    "name": "quick-matic-peco",
+    "name": "quick-wmatic-peco",
     "address": "0xc2ea6521F23358d18C3623d33Ce1106f798aCC64",
     "rewardPool": "0x27b3f4e93b7dCE173F682E760F492665e7f15Ad9",
     "decimals": "1e18",
@@ -19,26 +19,7 @@
     }
   },
   {
-    "name": "quick-gamer-eth",
-    "address": "0x1dF661fC4319415a2f990bd5F49D5cA70EFDee1C",
-    "rewardPool": "0x9DFF9CeDaDFf61a918626fF24D93EDc65DC95391",
-    "decimals": "1e18",
-    "chainId": 137,
-    "lp0": {
-      "address": "0x3f6b3595ecF70735D3f48D69b09C4E4506DB3F47",
-      "oracle": "tokens",
-      "oracleId": "GAMER",
-      "decimals": "1e18"
-    },
-    "lp1": {
-      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-      "oracle": "tokens",
-      "oracleId": "WETH",
-      "decimals": "1e18"
-    }
-  },
-  {
-    "name": "quick-masq-eth",
+    "name": "quick-masq-wmatic",
     "address": "0xB5a7c572741d77f34d2096f928Beb6168F31A621",
     "rewardPool": "0x2637305CA186ce8763469C4CdD6570a2eA544a26",
     "decimals": "1e18",
@@ -95,25 +76,6 @@
     }
   },
   {
-    "name": "quick-usdt-uart",
-    "address": "0x55faC9f86e274Ac335046e8e434881B3f2a9C09A",
-    "rewardPool": "0x1749A4ee5db033BCaB23544E54A71A69d06da054",
-    "decimals": "1e18",
-    "chainId": 137,
-    "lp0": {
-      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-      "oracle": "tokens",
-      "oracleId": "USDT",
-      "decimals": "1e6"
-    },
-    "lp1": {
-      "address": "0xf244E91A46A9cdd48da295cA5d0B27894f8032B1",
-      "oracle": "tokens",
-      "oracleId": "UART",
-      "decimals": "1e12"
-    }
-  },
-  {
     "name": "quick-usdc-awx",
     "address": "0xE55AEA66EA7f71A8AF0506Cb37FdE3c551a9B089",
     "rewardPool": "0xfC7E3459F10503dDCd3c58C1F029478273B90c37",
@@ -129,63 +91,6 @@
       "address": "0x56A0eFEFC9F1FBb54FBd25629Ac2aA764F1b56F7",
       "oracle": "tokens",
       "oracleId": "AWX",
-      "decimals": "1e18"
-    }
-  },
-  {
-    "name": "quick-usdc-orare",
-    "address": "0x8BEbd067b8F17699707B02e37956f846dfB0932A",
-    "rewardPool": "0xA50D6c54080e81C9948e4E8375C8F468478A99Df",
-    "decimals": "1e18",
-    "chainId": 137,
-    "lp0": {
-      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-      "oracle": "tokens",
-      "oracleId": "USDT",
-      "decimals": "1e6"
-    },
-    "lp1": {
-      "address": "0xFF2382Bd52efaceF02Cc895bcBFc4618608AA56F",
-      "oracle": "tokens",
-      "oracleId": "ORARE",
-      "decimals": "1e18"
-    }
-  },
-  {
-    "name": "quick-safle-usdt",
-    "address": "0xEf77d1E8fcf83a4818F6dFFc73eF682794600c10",
-    "rewardPool": "0x7B62e5e27E3eB52002F587F842Ba053277e8f935",
-    "decimals": "1e18",
-    "chainId": 137,
-    "lp0": {
-      "address": "0x04b33078Ea1aEf29bf3fB29c6aB7B200C58ea126",
-      "oracle": "tokens",
-      "oracleId": "SAFLE",
-      "decimals": "1e18"
-    },
-    "lp1": {
-      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-      "oracle": "tokens",
-      "oracleId": "USDT",
-      "decimals": "1e6"
-    }
-  },
-  {
-    "name": "quick-weth-nacho",
-    "address": "0x8D25fec513309F2d329d99d6F677D46C831FDEe8",
-    "rewardPool": "0x9417C101b376159F7b2223200bcA1A92d7228554",
-    "decimals": "1e18",
-    "chainId": 137,
-    "lp0": {
-      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-      "oracle": "tokens",
-      "oracleId": "WETH",
-      "decimals": "1e18"
-    },
-    "lp1": {
-      "address": "0xcD86152047e800d67BDf00A4c635A8B6C0e5C4c2",
-      "oracle": "tokens",
-      "oracleId": "NACHO",
       "decimals": "1e18"
     }
   },
@@ -209,7 +114,7 @@
     }
   },
   {
-    "name": "quick-wsg-weth",
+    "name": "quick-wsg-eth",
     "address": "0xCCB65f861266EF7dEF8bF35D4247e3ffA03563c7",
     "rewardPool": "0x102aBFc497ecC62E9491e7AdC4A3321cf9E08B77",
     "decimals": "1e18",
@@ -223,7 +128,7 @@
     "lp1": {
       "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
       "oracle": "tokens",
-      "oracleId": "WETH",
+      "oracleId": "ETH",
       "decimals": "1e18"
     }
   },
@@ -266,7 +171,7 @@
     }
   },
   {
-    "name": "quick-weth-fuse",
+    "name": "quick-eth-fuse",
     "address": "0x9Ab6E8197cfD366F920b54cb069cE6273898CB0B",
     "rewardPool": "0x13cD28356F909bc0b33860b6552201b9FfaF8A37",
     "decimals": "1e18",
@@ -274,7 +179,7 @@
     "lp0": {
       "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
       "oracle": "tokens",
-      "oracleId": "WETH",
+      "oracleId": "ETH",
       "decimals": "1e18"
     },
     "lp1": {

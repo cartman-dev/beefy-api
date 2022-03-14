@@ -27,6 +27,125 @@ const MAI = {
 } as const;
 
 const _tokens = {
+  PECO: {
+    name: 'Polygon Ecosystem Index',
+    symbol: 'PECO',
+    address: '0xA9536B9c75A9E0faE3B56a96AC8EdF76AbC91978',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/14218.png',
+    website: 'https://amun.com/',
+    description:
+      'Amun takes the guesswork out of investing by automating your portfolio. Continue your DeFi journey with a clear advantage.',
+  },
+  MASQ: {
+    name: 'MASQ',
+    symbol: 'MASQ',
+    address: '0xEe9A352F6aAc4aF1A5B9f467F6a93E0ffBe9Dd35',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/8376.png',
+    website: 'https://masq.ai/',
+    description:
+      'MASQ combines the benefits of VPN and Tor technology, to create a superior next-generation privacy software, where users are rewarded for supporting an uncensored, global web.',
+  },
+  SHEESHA: {
+    name: 'Sheesha Finance',
+    symbol: 'SHEESHA',
+    address: '0x88C949b4eB85a90071f2C0beF861BDDEe1a7479D',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/16972.png',
+    website: 'https://polygon.sheeshafinance.io/',
+    description:
+      'Sheesha Finance is an ambitious, one-of-a-kind, fiery DeFi multi-chain platform offering a level playing field for all investors to access a diversified portfolio of projects.',
+  },
+  ORBS: {
+    name: 'Orbs',
+    symbol: 'ORBS',
+    address: '0x614389EaAE0A6821DC49062D56BDA3d9d45Fa2ff',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/3835.png',
+    website: 'https://www.orbs.com/',
+    description: 'Making Your Smart Contracts Smarter',
+  },
+  AWX: {
+    name: 'Aurus DeFi',
+    symbol: 'AWX',
+    address: '0x56A0eFEFC9F1FBb54FBd25629Ac2aA764F1b56F7',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/7301.png',
+    website: 'https://aurus.io/',
+    description:
+      'Aurus is the decentralized financial infrastructure empowering gold, silver, and platinum-pegged digital assets, creating a more inclusive and efficient precious metals market.',
+  },
+  TOWER: {
+    name: 'Crazy Defense Heroes',
+    symbol: 'TOWER',
+    address: '0x2bC07124D8dAc638E290f401046Ad584546BC47b',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/8620.png',
+    website: 'https://www.crazydefenseheroes.com/',
+    description: 'A medium of exchange, utility, and governance for the Crazy Kings franchise.',
+  },
+  WSG: {
+    name: 'Wall Street Games',
+    symbol: 'WSG',
+    address: '0x3C1BB39bb696B443a1D80BB2b3a3d950Ba9DEE87',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/10040.png',
+    website: 'https://wsg.gg/',
+    description:
+      'The Next Generation gaming platform with a unique and immersive way to earn rewards.',
+  },
+  WRLD: {
+    name: 'NFT Worlds',
+    symbol: 'WRLD',
+    address: '0xD5d86FC8d5C0Ea1aC1Ac5Dfab6E529c9967a45E9',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/16678.png',
+    website: 'https://www.nftworlds.com/',
+    description: '10,000 virtual worlds, living on the Ethereum blockchain.',
+  },
+  CEL: {
+    name: 'Celsius',
+    symbol: 'CEL',
+    address: '0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6',
+    chainId: 137,
+    decimals: 4,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/2700.png',
+    website: 'https://celsius.network/',
+    description:
+      'Crypto lending for everyone.  Earn rewards on your crypto, borrow against your crypto, and more!',
+  },
+  FUSE: {
+    name: 'Fuse',
+    symbol: 'FUSE',
+    address: '0xF915fDDa4c882731C0456a4214548Cd13A822886',
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xd3974AE5A9BCD4AE4c9037a25A67374a11df4154/logo.png',
+    website: 'https://fuse.io/',
+    description:
+      'Fuse was founded in 2019 with a mission to bring the power of mobile payments to communities around the world.',
+  },
+  UND: {
+    name: 'Unbound Dollar',
+    symbol: 'UND',
+    address: '0x1eBA4B44C4F8cc2695347C6a78F0B7a002d26413',
+    chainId: 137,
+    decimals: 18,
+    logoURI: 'https://assets.coingecko.com/coins/images/19932/small/und.PNG?1636325217',
+    website: 'https://app.unbound.finance/',
+    description:
+      'Unbound Finance is a decentralized, cross-chain liquidity protocol that is building the next money lego by unlocking the liquidity from AMMs.',
+  },
   SX: {
     name: 'SX Network SX',
     symbol: 'SX',
